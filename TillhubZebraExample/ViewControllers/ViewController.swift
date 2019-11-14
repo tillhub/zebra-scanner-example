@@ -8,7 +8,6 @@
 
 import UIKit
 import ZebraScanner
-import PromiseKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var switchButton: UIButton!
@@ -24,20 +23,26 @@ class ViewController: UIViewController {
         if zebraManager.isActivated {
             addLog("⌛️ Deactivating...")
             self.switchButton.setTitle("Deactivating...", for: .normal)
-            deactivateZebra().done { _ in
-                self.addLog("✅ Deactivated")
-                self.switchButton.setTitle("Activate", for: .normal)
-            }.catch { error in
-                self.addLog("❌ Error: \(error)")
+            
+            zebraManager.deactivate { [weak self] error in
+                if let error = error {
+                    self?.addLog("❌ Error: \(error)")
+                } else {
+                    self?.addLog("✅ Deactivated")
+                    self?.switchButton.setTitle("Activate", for: .normal)
+                }
             }
         } else {
             addLog("⌛️ Activating...")
             self.switchButton.setTitle("Activating...", for: .normal)
-            activateZebra().done { _ in
-                self.addLog("✅ Activated")
-                self.switchButton.setTitle("Deactivate", for: .normal)
-            }.catch { error in
-                self.addLog("❌ Error: \(error)")
+            
+            zebraManager.activate { [weak self] error in
+                if let error = error {
+                    self?.addLog("❌ Error: \(error)")
+                } else {
+                    self?.addLog("✅ Activated")
+                    self?.switchButton.setTitle("Deactivate", for: .normal)
+                }
             }
         }
     }
@@ -51,32 +56,5 @@ class ViewController: UIViewController {
     
     @IBAction func switchButtonDidTap(_ sender: Any) {
         activate()
-    }
-}
-
-extension ViewController {
-    
-    private func deactivateZebra() -> Promise<Void> {
-        return Promise { seal in
-            zebraManager.deactivate { error in
-                if let error = error {
-                    seal.reject(error)
-                } else {
-                    seal.fulfill_()
-                }
-            }
-        }
-    }
-    
-    private func activateZebra() -> Promise<Void> {
-        return Promise { seal in
-            zebraManager.activate { error in
-                if let error = error {
-                    seal.reject(error)
-                } else {
-                    seal.fulfill_()
-                }
-            }
-        }
     }
 }

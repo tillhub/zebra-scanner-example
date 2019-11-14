@@ -1,24 +1,3 @@
-PODS:
-  - PromiseKit (6.12.0):
-    - PromiseKit/CorePromise (= 6.12.0)
-    - PromiseKit/Foundation (= 6.12.0)
-    - PromiseKit/UIKit (= 6.12.0)
-  - PromiseKit/CorePromise (6.12.0)
-  - PromiseKit/Foundation (6.12.0):
-    - PromiseKit/CorePromise
-  - PromiseKit/UIKit (6.12.0):
-    - PromiseKit/CorePromise
-
-DEPENDENCIES:
-  - PromiseKit
-
-SPEC REPOS:
-  trunk:
-    - PromiseKit
-
-SPEC CHECKSUMS:
-  PromiseKit: c06835ba442ce5454ce3cdde470232804a6e4ff8
-
-PODFILE CHECKSUM: 194e428e69c35d736f041a5d1674a5212710a1a0
+PODFILE CHECKSUM: cdddb2178f45475e2321fa3203f2f93ce5ed7557
 
 COCOAPODS: 1.8.4
