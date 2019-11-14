@@ -7,9 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F164B04719FE3DD9E5191E1 /* libPods-ZebraScannerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BAD73BC5024629D26E9DC4 /* libPods-ZebraScannerTests.a */; };
 		6CEB62D0237D5403000E52AD /* ZebraScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEB62C6237D5402000E52AD /* ZebraScanner.framework */; };
 		6CEB62D5237D5403000E52AD /* ZebraScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB62D4237D5403000E52AD /* ZebraScannerTests.swift */; };
 		6CEB62D7237D5403000E52AD /* ZebraScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEB62C9237D5402000E52AD /* ZebraScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEB62FF237D54DB000E52AD /* scannerios-dg-en.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6CEB62EA237D54DB000E52AD /* scannerios-dg-en.pdf */; };
+		6CEB6300237D54DB000E52AD /* RMDAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEB62EC237D54DB000E52AD /* RMDAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEB6301237D54DB000E52AD /* SbtScannerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEB62ED237D54DB000E52AD /* SbtScannerInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEB6302237D54DB000E52AD /* ISbtSdkApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEB62EE237D54DB000E52AD /* ISbtSdkApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEB6303237D54DB000E52AD /* SbtSdkDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEB62EF237D54DB000E52AD /* SbtSdkDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEB6304237D54DB000E52AD /* FirmwareUpdateEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEB62F0237D54DB000E52AD /* FirmwareUpdateEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEB6305237D54DB000E52AD /* ISbtSdkApiDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEB62F1237D54DB000E52AD /* ISbtSdkApiDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEB6306237D54DB000E52AD /* SbtSdkFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEB62F2237D54DB000E52AD /* SbtSdkFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEB6307237D54DB000E52AD /* libsymbolbt-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEB62F3237D54DB000E52AD /* libsymbolbt-sdk.a */; };
+		6CEB6308237D54DB000E52AD /* ZebraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB62F5237D54DB000E52AD /* ZebraError.swift */; };
+		6CEB6309237D54DB000E52AD /* ZebraTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB62F7237D54DB000E52AD /* ZebraTypes.swift */; };
+		6CEB630A237D54DB000E52AD /* ZebraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB62F9237D54DB000E52AD /* ZebraManager.swift */; };
+		6CEB630B237D54DB000E52AD /* BarcodeGen128.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEB62FB237D54DB000E52AD /* BarcodeGen128.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEB630C237D54DB000E52AD /* BarcodeImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEB62FC237D54DB000E52AD /* BarcodeImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEB630D237D54DB000E52AD /* BarcodeGen128.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB62FD237D54DB000E52AD /* BarcodeGen128.m */; };
+		6CEB630E237D54DB000E52AD /* BarcodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB62FE237D54DB000E52AD /* BarcodeImage.m */; };
+		6CEB6324237D56F9000E52AD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEB6323237D56F9000E52AD /* CoreBluetooth.framework */; };
+		6CEB6326237D56FF000E52AD /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEB6325237D56FF000E52AD /* ExternalAccessory.framework */; };
+		6CEB6328237D571C000E52AD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEB6327237D570C000E52AD /* libz.tbd */; };
+		6CEB632E237D59BB000E52AD /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB632C237D59BB000E52AD /* Localizable.swift */; };
+		6CEB632F237D59BB000E52AD /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB632D237D59BB000E52AD /* String+Localizable.swift */; };
+		6CEB6331237D59D8000E52AD /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB6330237D59D8000E52AD /* ErrorHandler.swift */; };
+		6CEB6333237D59F6000E52AD /* CompletionBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB6332237D59F6000E52AD /* CompletionBlocks.swift */; };
+		DE4C5C60C4F526F23E087B71 /* libPods-ZebraScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3C8189164FE19D3A09588C /* libPods-ZebraScanner.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +48,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03BAD73BC5024629D26E9DC4 /* libPods-ZebraScannerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZebraScannerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D6BF7815A1092516E84962 /* Pods-ZebraScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebraScanner.debug.xcconfig"; path = "Target Support Files/Pods-ZebraScanner/Pods-ZebraScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		27BB059CA01E8621A095F415 /* Pods-ZebraScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebraScannerTests.release.xcconfig"; path = "Target Support Files/Pods-ZebraScannerTests/Pods-ZebraScannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		5BD0743E6C24B0374BD3DD5D /* Pods-ZebraScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebraScanner.release.xcconfig"; path = "Target Support Files/Pods-ZebraScanner/Pods-ZebraScanner.release.xcconfig"; sourceTree = "<group>"; };
 		6CEB62C6237D5402000E52AD /* ZebraScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZebraScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CEB62C9237D5402000E52AD /* ZebraScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZebraScanner.h; sourceTree = "<group>"; };
 		6CEB62CA237D5402000E52AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CEB62CF237D5403000E52AD /* ZebraScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZebraScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CEB62D4237D5403000E52AD /* ZebraScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZebraScannerTests.swift; sourceTree = "<group>"; };
 		6CEB62D6237D5403000E52AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CEB62EA237D54DB000E52AD /* scannerios-dg-en.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "scannerios-dg-en.pdf"; sourceTree = "<group>"; };
+		6CEB62EC237D54DB000E52AD /* RMDAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDAttributes.h; sourceTree = "<group>"; };
+		6CEB62ED237D54DB000E52AD /* SbtScannerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SbtScannerInfo.h; sourceTree = "<group>"; };
+		6CEB62EE237D54DB000E52AD /* ISbtSdkApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISbtSdkApi.h; sourceTree = "<group>"; };
+		6CEB62EF237D54DB000E52AD /* SbtSdkDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SbtSdkDefs.h; sourceTree = "<group>"; };
+		6CEB62F0237D54DB000E52AD /* FirmwareUpdateEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirmwareUpdateEvent.h; sourceTree = "<group>"; };
+		6CEB62F1237D54DB000E52AD /* ISbtSdkApiDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISbtSdkApiDelegate.h; sourceTree = "<group>"; };
+		6CEB62F2237D54DB000E52AD /* SbtSdkFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SbtSdkFactory.h; sourceTree = "<group>"; };
+		6CEB62F3237D54DB000E52AD /* libsymbolbt-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libsymbolbt-sdk.a"; sourceTree = "<group>"; };
+		6CEB62F5237D54DB000E52AD /* ZebraError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZebraError.swift; sourceTree = "<group>"; };
+		6CEB62F7237D54DB000E52AD /* ZebraTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZebraTypes.swift; sourceTree = "<group>"; };
+		6CEB62F9237D54DB000E52AD /* ZebraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZebraManager.swift; sourceTree = "<group>"; };
+		6CEB62FB237D54DB000E52AD /* BarcodeGen128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeGen128.h; sourceTree = "<group>"; };
+		6CEB62FC237D54DB000E52AD /* BarcodeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeImage.h; sourceTree = "<group>"; };
+		6CEB62FD237D54DB000E52AD /* BarcodeGen128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeGen128.m; sourceTree = "<group>"; };
+		6CEB62FE237D54DB000E52AD /* BarcodeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeImage.m; sourceTree = "<group>"; };
+		6CEB6323237D56F9000E52AD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		6CEB6325237D56FF000E52AD /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ExternalAccessory.framework; sourceTree = DEVELOPER_DIR; };
+		6CEB6327237D570C000E52AD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		6CEB632C237D59BB000E52AD /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		6CEB632D237D59BB000E52AD /* String+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
+		6CEB6330237D59D8000E52AD /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		6CEB6332237D59F6000E52AD /* CompletionBlocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletionBlocks.swift; sourceTree = "<group>"; };
+		7F3C8189164FE19D3A09588C /* libPods-ZebraScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZebraScanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7501C5B1E2C9190C96D22A /* Pods-ZebraScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebraScannerTests.debug.xcconfig"; path = "Target Support Files/Pods-ZebraScannerTests/Pods-ZebraScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +90,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CEB6326237D56FF000E52AD /* ExternalAccessory.framework in Frameworks */,
+				6CEB6328237D571C000E52AD /* libz.tbd in Frameworks */,
+				6CEB6324237D56F9000E52AD /* CoreBluetooth.framework in Frameworks */,
+				6CEB6307237D54DB000E52AD /* libsymbolbt-sdk.a in Frameworks */,
+				DE4C5C60C4F526F23E087B71 /* libPods-ZebraScanner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +103,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CEB62D0237D5403000E52AD /* ZebraScanner.framework in Frameworks */,
+				1F164B04719FE3DD9E5191E1 /* libPods-ZebraScannerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B379732BBD7EFAF5C67A08C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06D6BF7815A1092516E84962 /* Pods-ZebraScanner.debug.xcconfig */,
+				5BD0743E6C24B0374BD3DD5D /* Pods-ZebraScanner.release.xcconfig */,
+				FC7501C5B1E2C9190C96D22A /* Pods-ZebraScannerTests.debug.xcconfig */,
+				27BB059CA01E8621A095F415 /* Pods-ZebraScannerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
+			sourceTree = "<group>";
+		};
 		6CEB62BC237D5402000E52AD = {
 			isa = PBXGroup;
 			children = (
 				6CEB62C8237D5402000E52AD /* ZebraScanner */,
 				6CEB62D3237D5403000E52AD /* ZebraScannerTests */,
 				6CEB62C7237D5402000E52AD /* Products */,
+				6CEB6322237D56F8000E52AD /* Frameworks */,
+				6B379732BBD7EFAF5C67A08C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +145,14 @@
 		6CEB62C8237D5402000E52AD /* ZebraScanner */ = {
 			isa = PBXGroup;
 			children = (
+				6CEB632B237D5996000E52AD /* Common */,
 				6CEB62C9237D5402000E52AD /* ZebraScanner.h */,
 				6CEB62CA237D5402000E52AD /* Info.plist */,
+				6CEB62FA237D54DB000E52AD /* BarcodeGenerator */,
+				6CEB62F4237D54DB000E52AD /* Errors */,
+				6CEB62F8237D54DB000E52AD /* Managers */,
+				6CEB62E9237D54DB000E52AD /* symbolbt-sdk */,
+				6CEB62F6237D54DB000E52AD /* ZebraTypes */,
 			);
 			path = ZebraScanner;
 			sourceTree = "<group>";
@@ -86,6 +166,88 @@
 			path = ZebraScannerTests;
 			sourceTree = "<group>";
 		};
+		6CEB62E9237D54DB000E52AD /* symbolbt-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				6CEB62EA237D54DB000E52AD /* scannerios-dg-en.pdf */,
+				6CEB62EB237D54DB000E52AD /* include */,
+				6CEB62F3237D54DB000E52AD /* libsymbolbt-sdk.a */,
+			);
+			path = "symbolbt-sdk";
+			sourceTree = "<group>";
+		};
+		6CEB62EB237D54DB000E52AD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				6CEB62EC237D54DB000E52AD /* RMDAttributes.h */,
+				6CEB62ED237D54DB000E52AD /* SbtScannerInfo.h */,
+				6CEB62EE237D54DB000E52AD /* ISbtSdkApi.h */,
+				6CEB62EF237D54DB000E52AD /* SbtSdkDefs.h */,
+				6CEB62F0237D54DB000E52AD /* FirmwareUpdateEvent.h */,
+				6CEB62F1237D54DB000E52AD /* ISbtSdkApiDelegate.h */,
+				6CEB62F2237D54DB000E52AD /* SbtSdkFactory.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		6CEB62F4237D54DB000E52AD /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				6CEB62F5237D54DB000E52AD /* ZebraError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		6CEB62F6237D54DB000E52AD /* ZebraTypes */ = {
+			isa = PBXGroup;
+			children = (
+				6CEB62F7237D54DB000E52AD /* ZebraTypes.swift */,
+			);
+			path = ZebraTypes;
+			sourceTree = "<group>";
+		};
+		6CEB62F8237D54DB000E52AD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6CEB62F9237D54DB000E52AD /* ZebraManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6CEB62FA237D54DB000E52AD /* BarcodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				6CEB62FB237D54DB000E52AD /* BarcodeGen128.h */,
+				6CEB62FC237D54DB000E52AD /* BarcodeImage.h */,
+				6CEB62FD237D54DB000E52AD /* BarcodeGen128.m */,
+				6CEB62FE237D54DB000E52AD /* BarcodeImage.m */,
+			);
+			path = BarcodeGenerator;
+			sourceTree = "<group>";
+		};
+		6CEB6322237D56F8000E52AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CEB6327237D570C000E52AD /* libz.tbd */,
+				6CEB6325237D56FF000E52AD /* ExternalAccessory.framework */,
+				6CEB6323237D56F9000E52AD /* CoreBluetooth.framework */,
+				7F3C8189164FE19D3A09588C /* libPods-ZebraScanner.a */,
+				03BAD73BC5024629D26E9DC4 /* libPods-ZebraScannerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CEB632B237D5996000E52AD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6CEB6332237D59F6000E52AD /* CompletionBlocks.swift */,
+				6CEB6330237D59D8000E52AD /* ErrorHandler.swift */,
+				6CEB632C237D59BB000E52AD /* Localizable.swift */,
+				6CEB632D237D59BB000E52AD /* String+Localizable.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +255,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CEB6306237D54DB000E52AD /* SbtSdkFactory.h in Headers */,
+				6CEB6302237D54DB000E52AD /* ISbtSdkApi.h in Headers */,
+				6CEB6301237D54DB000E52AD /* SbtScannerInfo.h in Headers */,
+				6CEB6303237D54DB000E52AD /* SbtSdkDefs.h in Headers */,
+				6CEB6304237D54DB000E52AD /* FirmwareUpdateEvent.h in Headers */,
+				6CEB630C237D54DB000E52AD /* BarcodeImage.h in Headers */,
+				6CEB6305237D54DB000E52AD /* ISbtSdkApiDelegate.h in Headers */,
 				6CEB62D7237D5403000E52AD /* ZebraScanner.h in Headers */,
+				6CEB6300237D54DB000E52AD /* RMDAttributes.h in Headers */,
+				6CEB630B237D54DB000E52AD /* BarcodeGen128.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CEB62DA237D5403000E52AD /* Build configuration list for PBXNativeTarget "ZebraScanner" */;
 			buildPhases = (
+				92E745EF1048E5E6A232AAB9 /* [CP] Check Pods Manifest.lock */,
 				6CEB62C1237D5402000E52AD /* Headers */,
 				6CEB62C2237D5402000E52AD /* Sources */,
 				6CEB62C3237D5402000E52AD /* Frameworks */,
@@ -122,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CEB62DD237D5403000E52AD /* Build configuration list for PBXNativeTarget "ZebraScannerTests" */;
 			buildPhases = (
+				01520FBB23C733DF3CA46125 /* [CP] Check Pods Manifest.lock */,
 				6CEB62CB237D5403000E52AD /* Sources */,
 				6CEB62CC237D5403000E52AD /* Frameworks */,
 				6CEB62CD237D5403000E52AD /* Resources */,
@@ -178,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CEB62FF237D54DB000E52AD /* scannerios-dg-en.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,11 +364,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01520FBB23C733DF3CA46125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZebraScannerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92E745EF1048E5E6A232AAB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZebraScanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6CEB62C2237D5402000E52AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CEB630E237D54DB000E52AD /* BarcodeImage.m in Sources */,
+				6CEB630A237D54DB000E52AD /* ZebraManager.swift in Sources */,
+				6CEB6309237D54DB000E52AD /* ZebraTypes.swift in Sources */,
+				6CEB6308237D54DB000E52AD /* ZebraError.swift in Sources */,
+				6CEB632E237D59BB000E52AD /* Localizable.swift in Sources */,
+				6CEB6331237D59D8000E52AD /* ErrorHandler.swift in Sources */,
+				6CEB6333237D59F6000E52AD /* CompletionBlocks.swift in Sources */,
+				6CEB630D237D54DB000E52AD /* BarcodeGen128.m in Sources */,
+				6CEB632F237D59BB000E52AD /* String+Localizable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +569,7 @@
 		};
 		6CEB62DB237D5403000E52AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D6BF7815A1092516E84962 /* Pods-ZebraScanner.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -348,10 +579,16 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ZebraScanner/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZebraScanner/symbolbt-sdk",
+					"$(PROJECT_DIR)/ZebraScanner/symbolbt-sdk/include/",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tillhub.ZebraScanner;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -363,6 +600,7 @@
 		};
 		6CEB62DC237D5403000E52AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD0743E6C24B0374BD3DD5D /* Pods-ZebraScanner.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -372,10 +610,16 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ZebraScanner/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZebraScanner/symbolbt-sdk",
+					"$(PROJECT_DIR)/ZebraScanner/symbolbt-sdk/include/",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tillhub.ZebraScanner;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -387,7 +631,9 @@
 		};
 		6CEB62DE237D5403000E52AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC7501C5B1E2C9190C96D22A /* Pods-ZebraScannerTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DGD7UEY7KQ;
 				INFOPLIST_FILE = ZebraScannerTests/Info.plist;
@@ -405,7 +651,9 @@
 		};
 		6CEB62DF237D5403000E52AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27BB059CA01E8621A095F415 /* Pods-ZebraScannerTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DGD7UEY7KQ;
 				INFOPLIST_FILE = ZebraScannerTests/Info.plist;

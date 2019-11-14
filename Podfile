@@ -1,10 +1,23 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+
+platform :ios, '10.0'
+workspace 'TillhubZebraExample'
 
 target 'TillhubZebraExample' do
-  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for TillhubZebraExample
+  pod 'PromiseKit'
+  
+end
 
+# ZebraScanner
+
+target 'ZebraScanner' do
+  project 'Features/ZebraScanner/ZebraScanner'
+  pod 'PromiseKit'
+end
+
+target 'ZebraScannerTests' do
+  project 'Features/ZebraScanner/ZebraScanner'
+  # common
 end

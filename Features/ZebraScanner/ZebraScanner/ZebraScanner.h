@@ -2,8 +2,8 @@
 //  ZebraScanner.h
 //  ZebraScanner
 //
-//  Created by Baris Atamer on 11/14/19.
-//  Copyright © 2019 Tillhub. All rights reserved.
+//  Created by Andreas Hilbert on 23.10.19.
+//  Copyright © 2019 Andreas Hilbert. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -16,4 +16,9 @@ FOUNDATION_EXPORT const unsigned char ZebraScannerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ZebraScanner/PublicHeader.h>
 
+#import <ZebraScanner/SbtSdkFactory.h>
+#import <ZebraScanner/ISbtSdkApi.h>
+#import <ZebraScanner/SbtScannerInfo.h>
 
+#import "BarcodeGen128.h"
+#import "BarcodeImage.h"
