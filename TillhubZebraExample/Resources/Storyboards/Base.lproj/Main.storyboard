@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +11,72 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TillhubZebraExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8d-Pt-MUR">
+                                <rect key="frame" x="16" y="60" width="382" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Activate"/>
+                                <connections>
+                                    <action selector="switchButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vfb-ov-5or"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5zb-v9-OK8">
+                                <rect key="frame" x="16" y="216" width="382" height="646"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RG3-ly-d8Q">
+                                <rect key="frame" x="16" y="109" width="382" height="90"/>
+                                <string key="text">Steps to reproduce:
+1 - Activate
+2 - Deactivate
+3 - Activate it again
+4 - Crashes</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4wY-12-YgL" userLabel="Separator">
+                                <rect key="frame" x="36" y="207" width="342" height="1"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="NeO-nl-k4c"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RG3-ly-d8Q" firstAttribute="top" secondItem="q8d-Pt-MUR" secondAttribute="bottom" constant="16" id="3AW-Gz-tnA"/>
+                            <constraint firstItem="5zb-v9-OK8" firstAttribute="top" secondItem="4wY-12-YgL" secondAttribute="bottom" constant="8" id="3ge-C7-Yaz"/>
+                            <constraint firstItem="5zb-v9-OK8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="6Lk-Jt-Dj3"/>
+                            <constraint firstItem="RG3-ly-d8Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Mq3-iB-e2q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5zb-v9-OK8" secondAttribute="trailing" constant="16" id="O5H-zu-NKa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4wY-12-YgL" secondAttribute="trailing" constant="16" id="TCc-VZ-9AT"/>
+                            <constraint firstItem="4wY-12-YgL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="UmE-uu-5hd"/>
+                            <constraint firstItem="q8d-Pt-MUR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" priority="750" constant="16" id="VKb-fh-6Xo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="q8d-Pt-MUR" secondAttribute="trailing" priority="750" constant="16" id="VeQ-H7-hvi"/>
+                            <constraint firstItem="q8d-Pt-MUR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="XwI-vg-haa"/>
+                            <constraint firstItem="4wY-12-YgL" firstAttribute="top" secondItem="RG3-ly-d8Q" secondAttribute="bottom" constant="8" id="fpc-ZC-GS2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RG3-ly-d8Q" secondAttribute="trailing" constant="16" id="hUI-fW-U86"/>
+                            <constraint firstItem="5zb-v9-OK8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="rSH-ae-M1U"/>
+                            <constraint firstItem="q8d-Pt-MUR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xLA-4J-o6b"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="logTextView" destination="5zb-v9-OK8" id="dHv-QE-l6x"/>
+                        <outlet property="switchButton" destination="q8d-Pt-MUR" id="WVo-LW-XE6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
         </scene>
     </scenes>
 </document>

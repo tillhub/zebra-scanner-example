@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6C21E643237C49F00092834F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C21E642237C49F00092834F /* AppDelegate.swift */; };
-		6C21E645237C49F00092834F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C21E644237C49F00092834F /* SceneDelegate.swift */; };
 		6C21E647237C49F00092834F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C21E646237C49F00092834F /* ViewController.swift */; };
 		6C21E64A237C49F00092834F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C21E648237C49F00092834F /* Main.storyboard */; };
 		6C21E64C237C49F20092834F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C21E64B237C49F20092834F /* Assets.xcassets */; };
@@ -52,7 +51,6 @@
 /* Begin PBXFileReference section */
 		6C21E63F237C49F00092834F /* TillhubZebraExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TillhubZebraExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C21E642237C49F00092834F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6C21E644237C49F00092834F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6C21E646237C49F00092834F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C21E649237C49F00092834F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C21E64B237C49F20092834F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 				6C21E650237C49F20092834F /* Info.plist */,
 				6CEB6311237D5534000E52AD /* Application */,
 				6CEB6313237D5543000E52AD /* Resources */,
-				6CEB6315237D555C000E52AD /* SupportFiles */,
 				6CEB6312237D553A000E52AD /* ViewControllers */,
 			);
 			path = TillhubZebraExample;
@@ -138,7 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				6C21E642237C49F00092834F /* AppDelegate.swift */,
-				6C21E644237C49F00092834F /* SceneDelegate.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -167,13 +163,6 @@
 				6C21E64D237C49F20092834F /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		6CEB6315237D555C000E52AD /* SupportFiles */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 		906503FFA5D6BE74F3B33D62 /* Frameworks */ = {
@@ -325,7 +314,6 @@
 			files = (
 				6C21E647237C49F00092834F /* ViewController.swift in Sources */,
 				6C21E643237C49F00092834F /* AppDelegate.swift in Sources */,
-				6C21E645237C49F00092834F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -455,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
