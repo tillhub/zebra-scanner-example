@@ -12,20 +12,20 @@
 		6C21E64A237C49F00092834F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C21E648237C49F00092834F /* Main.storyboard */; };
 		6C21E64C237C49F20092834F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C21E64B237C49F20092834F /* Assets.xcassets */; };
 		6C21E64F237C49F20092834F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C21E64D237C49F20092834F /* LaunchScreen.storyboard */; };
-		6CEB631E237D5670000E52AD /* ZebraScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEB62E6237D5404000E52AD /* ZebraScanner.framework */; };
-		6CEB631F237D5670000E52AD /* ZebraScanner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEB62E6237D5404000E52AD /* ZebraScanner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6CFB7C5A237D6F830050C52C /* ZebraScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFB7C57237D6F5C0050C52C /* ZebraScanner.framework */; };
+		6CFB7C5B237D6F830050C52C /* ZebraScanner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFB7C57237D6F5C0050C52C /* ZebraScanner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E65AC16EC4E54EB4019278FD /* Pods_TillhubZebraExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED10D20496160011C202CB8 /* Pods_TillhubZebraExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6CEB62E5237D5404000E52AD /* PBXContainerItemProxy */ = {
+		6CFB7C56237D6F5C0050C52C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6CEB62E0237D5403000E52AD /* ZebraScanner.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 6CEB62C6237D5402000E52AD;
 			remoteInfo = ZebraScanner;
 		};
-		6CEB62E7237D5404000E52AD /* PBXContainerItemProxy */ = {
+		6CFB7C58237D6F5C0050C52C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6CEB62E0237D5403000E52AD /* ZebraScanner.xcodeproj */;
 			proxyType = 2;
@@ -41,7 +41,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6CEB631F237D5670000E52AD /* ZebraScanner.framework in Embed Frameworks */,
+				6CFB7C5B237D6F830050C52C /* ZebraScanner.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +56,7 @@
 		6C21E64B237C49F20092834F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C21E64E237C49F20092834F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C21E650237C49F20092834F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CEB62E0237D5403000E52AD /* ZebraScanner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZebraScanner.xcodeproj; path = Features/ZebraScanner/ZebraScanner.xcodeproj; sourceTree = "<group>"; };
+		6CEB62E0237D5403000E52AD /* ZebraScanner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZebraScanner.xcodeproj; path = ZebraScanner/ZebraScanner.xcodeproj; sourceTree = "<group>"; };
 		7E349E774933D446CAB8F247 /* Pods-TillhubZebraExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TillhubZebraExample.debug.xcconfig"; path = "Target Support Files/Pods-TillhubZebraExample/Pods-TillhubZebraExample.debug.xcconfig"; sourceTree = "<group>"; };
 		B747E26873A0BFBA40F55DAE /* Pods-TillhubZebraExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TillhubZebraExample.release.xcconfig"; path = "Target Support Files/Pods-TillhubZebraExample/Pods-TillhubZebraExample.release.xcconfig"; sourceTree = "<group>"; };
 		EED10D20496160011C202CB8 /* Pods_TillhubZebraExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TillhubZebraExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CEB631E237D5670000E52AD /* ZebraScanner.framework in Frameworks */,
+				6CFB7C5A237D6F830050C52C /* ZebraScanner.framework in Frameworks */,
 				E65AC16EC4E54EB4019278FD /* Pods_TillhubZebraExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,7 +87,6 @@
 		6C21E636237C49EF0092834F = {
 			isa = PBXGroup;
 			children = (
-				6CEB62E0237D5403000E52AD /* ZebraScanner.xcodeproj */,
 				6C21E641237C49F00092834F /* TillhubZebraExample */,
 				6C21E640237C49F00092834F /* Products */,
 				2D374DD097F8941693DE419E /* Pods */,
@@ -118,17 +117,9 @@
 		6C21E656237C4A4C0092834F /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				6CEB62E0237D5403000E52AD /* ZebraScanner.xcodeproj */,
 			);
 			path = Features;
-			sourceTree = "<group>";
-		};
-		6CEB62E1237D5403000E52AD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6CEB62E6237D5404000E52AD /* ZebraScanner.framework */,
-				6CEB62E8237D5404000E52AD /* ZebraScannerTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		6CEB6311237D5534000E52AD /* Application */ = {
@@ -163,6 +154,15 @@
 				6C21E64D237C49F20092834F /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6CFB7C52237D6F5C0050C52C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CFB7C57237D6F5C0050C52C /* ZebraScanner.framework */,
+				6CFB7C59237D6F5C0050C52C /* ZebraScannerTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		906503FFA5D6BE74F3B33D62 /* Frameworks */ = {
@@ -224,7 +224,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 6CEB62E1237D5403000E52AD /* Products */;
+					ProductGroup = 6CFB7C52237D6F5C0050C52C /* Products */;
 					ProjectRef = 6CEB62E0237D5403000E52AD /* ZebraScanner.xcodeproj */;
 				},
 			);
@@ -236,18 +236,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		6CEB62E6237D5404000E52AD /* ZebraScanner.framework */ = {
+		6CFB7C57237D6F5C0050C52C /* ZebraScanner.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = ZebraScanner.framework;
-			remoteRef = 6CEB62E5237D5404000E52AD /* PBXContainerItemProxy */;
+			remoteRef = 6CFB7C56237D6F5C0050C52C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6CEB62E8237D5404000E52AD /* ZebraScannerTests.xctest */ = {
+		6CFB7C59237D6F5C0050C52C /* ZebraScannerTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ZebraScannerTests.xctest;
-			remoteRef = 6CEB62E7237D5404000E52AD /* PBXContainerItemProxy */;
+			remoteRef = 6CFB7C58237D6F5C0050C52C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
