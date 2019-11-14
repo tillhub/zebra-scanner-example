@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import PromiseKit
 
 // TODO: read https://github.com/Shashank2406/cordova-plugin-zebra-scanner-ios/blob/master/src/ios/ZebraScanner.m
 

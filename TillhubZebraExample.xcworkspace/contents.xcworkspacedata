@@ -7,4 +7,7 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Features/ZebraScanner/ZebraScanner.xcodeproj">
+   </FileRef>
 </Workspace>
