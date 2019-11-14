@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,8 @@
 		6C21E64A237C49F00092834F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C21E648237C49F00092834F /* Main.storyboard */; };
 		6C21E64C237C49F20092834F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C21E64B237C49F20092834F /* Assets.xcassets */; };
 		6C21E64F237C49F20092834F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C21E64D237C49F20092834F /* LaunchScreen.storyboard */; };
-		6CFB7C5A237D6F830050C52C /* ZebraScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFB7C57237D6F5C0050C52C /* ZebraScanner.framework */; };
-		6CFB7C5B237D6F830050C52C /* ZebraScanner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFB7C57237D6F5C0050C52C /* ZebraScanner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E65AC16EC4E54EB4019278FD /* Pods_TillhubZebraExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED10D20496160011C202CB8 /* Pods_TillhubZebraExample.framework */; };
+		6CFB7C65237D745C0050C52C /* ZebraScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFB7C57237D6F5C0050C52C /* ZebraScanner.framework */; };
+		6CFB7C66237D745C0050C52C /* ZebraScanner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFB7C57237D6F5C0050C52C /* ZebraScanner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6CEB6320237D5670000E52AD /* Embed Frameworks */ = {
+		6CFB7C67237D745C0050C52C /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6CFB7C5B237D6F830050C52C /* ZebraScanner.framework in Embed Frameworks */,
+				6CFB7C66237D745C0050C52C /* ZebraScanner.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,9 +56,6 @@
 		6C21E64E237C49F20092834F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C21E650237C49F20092834F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CEB62E0237D5403000E52AD /* ZebraScanner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZebraScanner.xcodeproj; path = ZebraScanner/ZebraScanner.xcodeproj; sourceTree = "<group>"; };
-		7E349E774933D446CAB8F247 /* Pods-TillhubZebraExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TillhubZebraExample.debug.xcconfig"; path = "Target Support Files/Pods-TillhubZebraExample/Pods-TillhubZebraExample.debug.xcconfig"; sourceTree = "<group>"; };
-		B747E26873A0BFBA40F55DAE /* Pods-TillhubZebraExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TillhubZebraExample.release.xcconfig"; path = "Target Support Files/Pods-TillhubZebraExample/Pods-TillhubZebraExample.release.xcconfig"; sourceTree = "<group>"; };
-		EED10D20496160011C202CB8 /* Pods_TillhubZebraExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TillhubZebraExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,31 +63,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CFB7C5A237D6F830050C52C /* ZebraScanner.framework in Frameworks */,
-				E65AC16EC4E54EB4019278FD /* Pods_TillhubZebraExample.framework in Frameworks */,
+				6CFB7C65237D745C0050C52C /* ZebraScanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D374DD097F8941693DE419E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7E349E774933D446CAB8F247 /* Pods-TillhubZebraExample.debug.xcconfig */,
-				B747E26873A0BFBA40F55DAE /* Pods-TillhubZebraExample.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		6C21E636237C49EF0092834F = {
 			isa = PBXGroup;
 			children = (
 				6C21E641237C49F00092834F /* TillhubZebraExample */,
 				6C21E640237C49F00092834F /* Products */,
-				2D374DD097F8941693DE419E /* Pods */,
 				6C21E656237C4A4C0092834F /* Features */,
-				906503FFA5D6BE74F3B33D62 /* Frameworks */,
+				6CFB7C64237D745C0050C52C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,10 +150,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		906503FFA5D6BE74F3B33D62 /* Frameworks */ = {
+		6CFB7C64237D745C0050C52C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EED10D20496160011C202CB8 /* Pods_TillhubZebraExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,11 +164,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C21E653237C49F20092834F /* Build configuration list for PBXNativeTarget "TillhubZebraExample" */;
 			buildPhases = (
-				119128FC2DC0D61189FD5745 /* [CP] Check Pods Manifest.lock */,
 				6C21E63B237C49F00092834F /* Sources */,
 				6C21E63C237C49F00092834F /* Frameworks */,
 				6C21E63D237C49F00092834F /* Resources */,
-				6CEB6320237D5670000E52AD /* Embed Frameworks */,
+				6CFB7C67237D745C0050C52C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,31 +246,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		119128FC2DC0D61189FD5745 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TillhubZebraExample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C21E63B237C49F00092834F /* Sources */ = {
@@ -437,7 +395,6 @@
 		};
 		6C21E654237C49F20092834F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E349E774933D446CAB8F247 /* Pods-TillhubZebraExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,7 +417,6 @@
 		};
 		6C21E655237C49F20092834F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B747E26873A0BFBA40F55DAE /* Pods-TillhubZebraExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
