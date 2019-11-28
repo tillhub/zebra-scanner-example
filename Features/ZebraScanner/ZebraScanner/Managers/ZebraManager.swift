@@ -154,7 +154,7 @@ public class ZebraManager: NSObject {
     
     private func getAvailableScanners() throws -> [ZebraInfo] {
         var list: NSMutableArray? = NSMutableArray()
-        let result = self.zebraAPI.sbtGetAvailableScannersList(AutoreleasingUnsafeMutablePointer(&list))
+        let result = self.zebraAPI.sbtGetAvailableScannersList(&list)
         if result == SBT_RESULT_SUCCESS, let infos = list as? [SbtScannerInfo] {
             return infos.compactMap({ ZebraInfo(info: $0) })
         } else {
@@ -164,7 +164,7 @@ public class ZebraManager: NSObject {
     
     private func getActiveScanners() throws -> [ZebraInfo] {
         var list: NSMutableArray? = NSMutableArray()
-        let result = self.zebraAPI.sbtGetActiveScannersList(AutoreleasingUnsafeMutablePointer(&list))
+        let result = self.zebraAPI.sbtGetActiveScannersList(&list)
         if result == SBT_RESULT_SUCCESS, let infos = list as? [SbtScannerInfo] {
             return infos.compactMap({ ZebraInfo(info: $0) })
         } else {
